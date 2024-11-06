@@ -1,0 +1,27 @@
+* {
+    background-color:rgb(175, 175, 175)
+}
+
+body {
+    background-image: linear-gradient();
+}
+
+p {
+    color:rgb(90, 90, 90);
+}
+
+#saudacao {
+    font-size: 36px;
+    font-family:'Times New Roman', Times, serif;
+}
+#mensagem {
+    font-size: 18px;
+    font-family: cursive;
+    color:grey;
+    
+}
+.lista {
+    color:rgb(90, 90, 90);
+    font-size: 15px;
+    font-family: cursive;
+}
