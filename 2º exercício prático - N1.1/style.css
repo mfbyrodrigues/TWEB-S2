@@ -3,8 +3,6 @@ body {
     padding: 20px;
 }
 
-
-
 .cabecalho {
     display: flex;
     justify-content: center;
@@ -12,30 +10,26 @@ body {
     font-size:60px;
 }
 
-
-
 .barra {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 22px;
     font-style: italic;   
-    
 }
+
 .esp {
     margin: 0 7px 50px;
     background-color:rgb(230, 174, 174);
 }
-
-
 
 main {
     display: flex;
     justify-content: space-between;
     font-size: x-large;
     border: 3px solid black;
-    
 }
+
 section {
     max-width: 70%;
     display: flex;
@@ -43,9 +37,8 @@ section {
     margin: 0 30px 0;
     padding: 20px;
     text-align: justify;
-    
-
 }
+
 aside {
     max-width: 30%;
     display:flex;
@@ -54,8 +47,6 @@ aside {
     padding: 20px;
     
 }
-
-
 
 footer {
     display: flex;
