@@ -34,7 +34,7 @@ div:hover {
     transition-duration: 450ms;
 }
 
-div img:hover {
+div:hover img {
     transform: scale(1.07);
     transition-duration: 300ms;
 }
