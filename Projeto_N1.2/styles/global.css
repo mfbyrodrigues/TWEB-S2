@@ -6,9 +6,10 @@
 }
 
 :root {
-    --cor-seco: rgb(204, 74, 255);
-    --cor-prim: rgb(255, 112, 160);
+    --cor-prim: rgb(254 62 181);
+    --cor-seco: rgb(255, 0, 98);
     --cor-terc: rgb(168, 16, 54);
+    --cor-quar: rgb(206, 50, 102);
     --cor-branco: #fff;
     --cor-preto: #474441;
     --box-shadow: 0 2px 15px rgba(85, 12, 112, 0.342);
