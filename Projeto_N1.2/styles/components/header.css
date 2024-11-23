@@ -61,20 +61,19 @@ nav a::after {
     transition: width 0.3s ease;
 }
 
-nav a:hover::after{
+nav a:hover::after {
     width: 100%;
 
 }
 
-nav a:hover{
+nav a:hover {
     background: linear-gradient(120deg, var(--cor-prim), var(--cor-seco));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
 
-nav ul li:last-child a{
-    /*Não estou aguentando mais*/
+nav ul li:last-child a {
     background: var(--cor-quar);
     color: var(--cor-branco);
     padding: 0.8rem;
@@ -83,11 +82,11 @@ nav ul li:last-child a{
     box-shadow: var(--box-shadow);
 }
 
-nav ul li:last-child a::after{
+nav ul li:last-child a::after {
     display: none;
 }
 
-nav ul li:last-child a:hover{
+nav ul li:last-child a:hover {
     background: linear-gradient(45deg, var(--cor-prim), var(--cor-quar));
     color: var(--cor-branco);
     box-shadow: var(--box-shadow);
