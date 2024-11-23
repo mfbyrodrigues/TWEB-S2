@@ -2,7 +2,7 @@ section {
     padding: 60px;
 }
 
-.text-presentation{
+.text-presentation {
     font-size: xx-large;
     max-width: 600px;
     background: linear-gradient( 313deg, var(--cor-prim), var(--cor-terc));
@@ -12,17 +12,29 @@ section {
     margin-bottom: 30px;
 }
 
-main div p{
+main div p {
     max-width: 450px;
     margin-bottom: 15px;
     margin-left: 40px;
     text-align: center;
 }
 
-button{
+.imgpitaya {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
     background: linear-gradient(327deg, var(--cor-prim), var(--cor-terc));
     color: var(--cor-branco);
     padding: 0.6rem 5rem;
+    margin-top: 30px;
     margin-left: 140px;
     border-radius: 25px;
     border: 0;
@@ -31,11 +43,11 @@ button{
     cursor: pointer;
 }
 
-h3{
+h3 {
     background: linear-gradient( 313deg, var(--cor-prim), var(--cor-terc));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
     margin-left: 90px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
