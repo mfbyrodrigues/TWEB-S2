@@ -1,5 +1,10 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
 section {
-    padding: 60px;
+    padding: 80px;
 }
 
 .text-presentation {
