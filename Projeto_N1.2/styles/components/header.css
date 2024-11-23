@@ -24,7 +24,7 @@ header {
 }
 
 .nome-empresa {
-    background: linear-gradient( 45deg, var(--cor-prim), var(--cor-seco));
+    background: linear-gradient( 153deg, var(--cor-prim), var(--cor-quar));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -75,7 +75,7 @@ nav a:hover{
 
 nav ul li:last-child a{
     /*Não estou aguentando mais*/
-    background: var(--cor-terc);
+    background: var(--cor-quar);
     color: var(--cor-branco);
     padding: 0.8rem;
     border-radius: 20px;
@@ -88,7 +88,7 @@ nav ul li:last-child a::after{
 }
 
 nav ul li:last-child a:hover{
-    background: linear-gradient(45deg, var(--cor-prim), var(--cor-seco));
+    background: linear-gradient(45deg, var(--cor-prim), var(--cor-quar));
     color: var(--cor-branco);
     box-shadow: var(--box-shadow);
 }
