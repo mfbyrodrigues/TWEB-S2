@@ -1,1 +1,13 @@
+.footer-conteiner {
+    background-color: var(--cor-branco);
+    padding: 50px; 
+    box-shadow: var(--box-shadow);
+}
 
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
