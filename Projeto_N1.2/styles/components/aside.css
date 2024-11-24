@@ -21,10 +21,10 @@ aside {
     height: 250px;
 }
 
-aside div img{
+aside div img {
     transition: all 0.5s ease;
 }
 
-aside div img:hover{
+aside div img:hover {
     transform: scale(1.08);
 }
