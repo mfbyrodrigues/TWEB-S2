@@ -36,7 +36,7 @@ main div p {
 }
 
 button {
-    background: linear-gradient(327deg, var(--cor-prim), var(--cor-terc));
+    background: var(--cor-quar);
     color: var(--cor-branco);
     padding: 0.6rem 5rem;
     margin-top: 30px;
@@ -46,6 +46,12 @@ button {
     font-weight: 600;
     font-size: large;
     cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(45deg, var(--cor-prim), var(--cor-quar));
+    color: var(--cor-branco);
+    box-shadow: var(--box-shadow);
 }
 
 h3 {
