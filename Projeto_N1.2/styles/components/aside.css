@@ -15,7 +15,6 @@ aside {
 .imgs-aside img {
     width: 100%;
     border-radius: 15px; 
-    box-shadow: var(--box-shadow);
     object-fit: cover;
     width: 300px;
     height: 250px;
@@ -23,8 +22,10 @@ aside {
 
 aside div img {
     transition: all 0.5s ease;
+    box-shadow: var(--box-shadow);
 }
 
 aside div img:hover {
     transform: scale(1.08);
+    box-shadow: var(--box-shadow);
 }
