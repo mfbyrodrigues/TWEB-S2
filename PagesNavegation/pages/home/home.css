@@ -1,0 +1,49 @@
+@import url('../../styles/global.css');
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    border: solid 2px rgb(180, 180, 180);
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 25vh;
+    max-width: 450px;
+}
+
+.titulo {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-info {
+    width: 180px;
+    border-radius: 100%;
+    margin: 30px;
+}
+
+.text {
+    text-align: justify;
+}
+
+.banner:hover {
+    background-color: rgb(244, 185, 76);
+    transition-duration: 800ms;
+}
+
+.banner:hover .img-info {
+    transform: scale(1.07);
+    transition-duration: 800ms;
+}
+
+.titulo:active {
+    color: rgb(255, 212, 133);
+}
+
+.texto:active {
+    color: rgb(255, 212, 133);
+}
