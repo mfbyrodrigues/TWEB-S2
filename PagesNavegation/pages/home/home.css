@@ -2,16 +2,16 @@
 
 .banner {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     padding: 50px;
     background-color: white;
     border: solid 2px rgb(180, 180, 180);
     border-radius: 7px;
     margin: auto;
-    margin-top: 12vh;
-    margin-bottom: 7vh;
-    max-width: 450px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    max-width: 500px;
 }
 
 .titulo {
@@ -22,7 +22,8 @@
 }
 
 .img-info {
-    width: 180px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     margin: 30px;
 }
@@ -32,7 +33,7 @@
 }
 
 .banner:hover {
-    background-color: rgb(244, 185, 76);
+    background-color: rgb(201, 201, 201);
     transition-duration: 800ms;
 }
 

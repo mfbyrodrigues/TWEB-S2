@@ -2,15 +2,16 @@
 
 .caixote {
     padding: 30px;
-    max-width: 400px;
     margin: auto;
-    margin-top: 6rem;
+    max-width: 400px;
     height: 425px;
-    align-items: center;
-    display: flex;
     flex-direction: column;
+    display: flex;
+    align-items: center;
     border-radius: 10px;
     border: solid 2px rgb(180, 180, 180);
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 h1 {
