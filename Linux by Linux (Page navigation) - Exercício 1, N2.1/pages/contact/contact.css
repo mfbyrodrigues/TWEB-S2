@@ -38,7 +38,7 @@ input {
 }
 
 button {
-    background-color:rgb(226, 163, 47);
+    background-color:rgb(255, 166, 0);
     color: black;
     border: none;
     border-radius: 8px;
@@ -49,5 +49,5 @@ button {
 }
 
 button:hover {
-    background-color: rgb(190, 133, 27);
+    background-color: rgb(196, 127, 0);
 }
