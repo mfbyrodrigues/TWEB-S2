@@ -1,1 +1,46 @@
 @import url('../../styles/global.css');
+
+.text-conteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    max-width: 500px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+.mission-conteiner {
+    margin-bottom: 50px;
+}
+
+.vision-conteiner {
+    margin-bottom: 50px;
+}
+
+.values-conteiner {
+    margin-bottom: 50px;
+}
+
+.values-list {
+    margin-left: 20px;
+}
+
+.values-list li {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
