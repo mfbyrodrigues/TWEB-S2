@@ -6,7 +6,7 @@
     flex-direction: column;
     padding: 50px;
     background-color: white;
-    border: solid 2px rgb(180, 180, 180);
+    border: solid 3px rgb(180, 180, 180);
     border-radius: 7px;
     margin: auto;
     margin-top: 10vh;
@@ -26,6 +26,7 @@
     height: 150px;
     border-radius: 100%;
     margin: 30px;
+    border: solid 3px rgb(180, 180, 180);
 }
 
 .texto {
@@ -45,9 +46,9 @@
 }
 
 .titulo:active {
-    color: rgb(255, 222, 160);
+    color: var(--cor-prim);
 }
 
 .texto:active {
-    color: rgb(255, 222, 160);
+    color: var(--cor-prim);
 }
