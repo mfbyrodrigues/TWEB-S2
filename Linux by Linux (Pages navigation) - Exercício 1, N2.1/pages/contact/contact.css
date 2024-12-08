@@ -4,13 +4,13 @@
     padding: 30px;
     margin: auto;
     max-width: 400px;
-    height: 425px;
+    height: 487px;
     flex-direction: column;
     display: flex;
     align-items: center;
     border-radius: 10px;
     border: solid 2px rgb(180, 180, 180);
-    margin-top: 10vh;
+    margin-top: 6vh;
     margin-bottom: 10vh;
 }
 
@@ -21,15 +21,23 @@ h1 {
     text-align: center;
 }
 
+h3{
+    margin-bottom: 10px;
+}
+
 input, textarea {
-    display: block;
+    display: inline-block;
     margin-top: 5px;
     margin-bottom: 15px;
     width: 100%;
     padding: 7px;
     border: 1px solid #000000;
     border-radius: 8px;
-    
+}
+
+form div{
+    display: initial;
+    margin-right: 35px;
 }
 
 input {
@@ -37,17 +45,28 @@ input {
     max-width: 500px;
 }
 
+
+input[type="checkbox"]{
+    padding: 0;
+    max-width: 20px;
+}
+
 button {
-    background-color:rgb(255, 166, 0);
-    color: black;
+    background-color: var(--cor-prim);
+    font-size: medium;
+    font-weight: 600;
+    color: var(--black-color);
     border: none;
     border-radius: 8px;
-    padding: 5px 20px;
-    margin-top: 10px;
-    margin-left: 50px;
+    padding: 8px 18px;
     cursor: pointer;
+    transition: all ease 0.5s;
+    margin: 0 33% 0;
+    white-space: nowrap;
 }
 
 button:hover {
-    background-color: rgb(196, 127, 0);
+    background-color: var(--black-color);
+    transform: scale(1.1);
+    color: var(--white-color);
 }
