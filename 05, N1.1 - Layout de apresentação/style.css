@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+}
+
+nav ul {
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px 0;
+    font-size: large;
+}
+
+main section {
+    background-color:rgba(169, 169, 169, 0.258);
+    border: 3px solid rgb(30, 30, 30);
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    
+}
