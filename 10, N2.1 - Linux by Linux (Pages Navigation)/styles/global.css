@@ -1,0 +1,100 @@
+/*
+Configurações gerais do site:
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/*
+Paleta de cores:
+*/
+
+:root{
+    --cor-prim: #f5bd0c;
+    --cor-seco: rgb(201, 201, 201);
+    --cor-terc: rgb(180, 180, 180);
+    --cor-quar: #ffe386;
+    --white-color: rgb(241, 255, 255);
+    --black-color: rgb(0, 0, 0);
+    --box-shadow: 0 2px 15px rgba(58, 57, 55, 0.726);
+}
+
+/*
+Aplicação do CCS no header:
+*/
+
+.header-conteiner {
+    display: flex;
+    background-color: var(--cor-seco);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    box-shadow: var(--box-shadow);
+}
+
+.logo-conteiner {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+header div div img {
+    width: 150px;
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+    margin-right: 200px;
+}
+
+nav a {
+    color: var(--black-color);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: large;
+}
+
+nav ul li a {
+    transition: all ease 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--cor-prim);
+}
+
+nav ul li:last-child a {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-size: large;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    padding: 8px 18px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+nav ul li:last-child a:hover {
+    background-color: var(--cor-prim);
+    color: var(--black-color);
+}
+
+/*
+Aplicação do CSS no footer:
+*/
+
+.footer-conteiner {
+    background-color: var(--cor-seco);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 2px 15px rgb(0, 0, 0);
+}
