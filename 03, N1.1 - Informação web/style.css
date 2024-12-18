@@ -1,0 +1,63 @@
+
+body {
+    margin: 0px;
+    padding: 20px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.barra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    font-style: italic;  
+    margin-bottom: 15px; 
+}
+
+.esp {
+    margin: 0 7px 50px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+section {
+    max-width: 70%;
+    display: flex;
+    justify-content: left;
+    margin: 0 30px 0;
+    padding: 20px;
+    text-align: justify;
+}
+
+a {
+    margin-right: 30px;
+}
+
+aside {
+    max-width: 30%;
+    display:flex;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    font-size:25px;
+    bottom: 0;
+}
