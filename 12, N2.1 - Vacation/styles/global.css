@@ -102,7 +102,7 @@ Aplicação do CSS no footer:
 @media (max-width: 768px) {
 
     .header-conteiner{
-        max-width: auto;
+        max-width: 100%;
         width: 768px;
         display: flex;
         flex-direction: column;
@@ -110,6 +110,15 @@ Aplicação do CSS no footer:
     
     .logo-conteiner{
         margin: 0;
+    }
+
+    header div div img{
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    nav{
+        margin-left: 15px;
     }
 
     nav ul{
@@ -131,5 +140,9 @@ Aplicação do CSS no footer:
     div div img{
         width: 125px;
         height: 84px;
+    }
+
+    footer div p{
+        text-align: center;
     }
 }
