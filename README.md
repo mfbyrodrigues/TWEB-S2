@@ -1,2 +1,2 @@
 # TWEB-CodeCompleted
-Repositório destinado às resoluções da disciplina de Tecnologias Web (HTML5 e CSS3).
+Repositório destinado às resoluções da disciplina de Tecnologias Web com HTML5 e CSS3.
