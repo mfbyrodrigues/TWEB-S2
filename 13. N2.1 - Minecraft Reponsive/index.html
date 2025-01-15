@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade-images</title>
+
+    <link rel="stylesheet" href="./styles/main.css">
+
+    <link rel="icon" href="./assets/creeperlogo.png">
+</head>
+
+<body>
+    <main>
+        <h1>Imagens</h1>
+
+        <ul>
+            <li class="card">
+                <p>Minecraft logo</p>
+                <img class="minicreft" src="./assets/Grass_blocklogo.png" alt="Bloco de terra">
+            </li>
+
+            <li class="card">
+                <p>Creeper</p>
+                <img class="minicreft" src="./assets/Creeperamostra.png" alt="Bloco de terra">
+            </li>
+
+            <li class="card">
+                <p>Utilizar tag picture</p>
+
+                <picture>
+                    <source media="(max-width: 850px)" srcset="./assets/Grass_blocklogo.png">
+                    <source media="(max-width: 1250px)" srcset="./assets/Siamese_Cat_JE3.png">
+                    <img src="./assets/Ender_Dragon.webp">
+                </picture>
+
+            </li>
+        </ul>
+    </main>    
+</body>
+
+</html>
