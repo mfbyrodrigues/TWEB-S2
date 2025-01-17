@@ -1,0 +1,50 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes foda {
+    0% {
+        background-position: 0% 50%;
+    }
+    
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.barnaorainbow{
+    height: 10px;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: linear-gradient(120deg, rgb(245, 167, 255), pink, #6a6aff,  rgb(145, 224, 255));
+    background-size: 1800% 1800%;
+    animation: foda 3s ease infinite;
+
+}
+
