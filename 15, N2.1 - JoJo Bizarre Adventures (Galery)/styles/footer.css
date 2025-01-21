@@ -1,0 +1,10 @@
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+footer strong {
+    color: rgb(219, 55, 159);
+}
