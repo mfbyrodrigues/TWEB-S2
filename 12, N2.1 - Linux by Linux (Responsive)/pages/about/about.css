@@ -1,0 +1,89 @@
+@import url('../../styles/global.css');
+
+.text-conteiner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: white;
+    margin: auto;
+    margin-top: 5vh;
+    max-width: 500px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+.mission-conteiner {
+    margin-bottom: 50px;
+}
+
+.vision-conteiner {
+    margin-bottom: 50px;
+}
+
+.values-list {
+    margin-left: 20px;
+}
+
+.values-list li {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    padding-left: 150px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10vh;
+    max-width: 800px;
+}
+
+@media (max-width: 768px) {
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgs-aside {
+        display: flex;
+    }
+
+    aside {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 18px;
+        padding-left: 150px;
+        background-color: white;
+        margin: auto;
+        margin-bottom: 10vh;
+        max-width: 800px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .imgs-aside {
+        display: flex;
+        padding-right: 28rem;
+        gap: 1rem;
+    }
+
+}

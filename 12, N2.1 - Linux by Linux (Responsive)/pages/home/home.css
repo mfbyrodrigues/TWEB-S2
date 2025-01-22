@@ -1,0 +1,79 @@
+@import url('../../styles/global.css');
+
+.banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    background-color: white;
+    border: solid 3px rgb(180, 180, 180);
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    max-width: 500px;
+}
+
+.titulo {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-info {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin: 30px;
+    border: solid 3px rgb(180, 180, 180);
+}
+
+.texto {
+    display: flex;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.banner:hover {
+    background-color: rgb(201, 201, 201);
+    transition-duration: 800ms;
+}
+
+.banner:hover .img-info {
+    transform: scale(1.07);
+    transition-duration: 800ms;
+}
+
+.titulo:active {
+    color: var(--cor-prim);
+}
+
+.texto:active {
+    color: var(--cor-prim);
+}
+
+@media (max-width: 768px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .banner {
+        width: 375px;
+    }
+
+    .texto {
+        display: flex;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+}
