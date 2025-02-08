@@ -1,0 +1,50 @@
+.banner-conteiner {
+    width: 706px;
+    height: 403px;
+    display: block;
+    margin-left: 50px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+
+.tudomain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inf {
+    margin-left: 60px
+}
+
+.banner {
+    border-radius: 60px 30px;
+    margin-bottom: 30px;
+}
+
+.titulo {
+    margin-bottom: 15px;
+    animation: apareça 3s;
+}
+
+.texto {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+@keyframes apareça {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(50%);
+    }
+
+    
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0%);
+    }
+
+    
+}

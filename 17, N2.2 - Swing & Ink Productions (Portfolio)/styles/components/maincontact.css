@@ -1,31 +1,40 @@
-
-
 .caixote {
     padding: 30px;
     margin: auto;
     max-width: 400px;
-    height: 500px;
+    height: 525px;
     flex-direction: column;
     display: flex;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 15px;
     border: solid 2px rgb(180, 180, 180);
-    margin-top: 10vh;
     margin-bottom: 10vh;
 }
 
-h3 {
-    margin-bottom: 10px;
+.demon-box {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto
+}
+
+.satanico {
+    width: 400px;
+    margin-top: 40px;
+}
+
+h1 {
+    margin-bottom: 15px;
 }
 
 input, textarea {
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 15px;
     width: 100%;
-    padding: 7px;
+    padding: 10px;
     border: 1px solid #000000;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 form div {
@@ -50,11 +59,11 @@ button {
     font-weight: 600;
     color: var(--black-color);
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 8px 18px;
     cursor: pointer;
-    transition: all ease 0.5s;
-    margin: 0 33% 0;
+    transition: all ease 0.8s;
+    margin: 0 35% 0;
     white-space: nowrap;
 }
 

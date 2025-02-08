@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Swing & Ink Productions </title>
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/components/mainhome.css">
-    <link rel="icon" href="" type="image/x-icon">
+    <link rel="icon" href="../assets/images/Logo_S&I.png" type="image/x-icon">
 </head>
-<body>
 
+<body>
     <header>
         <div class="header-conteiner">
             <div class="logo-container">
@@ -18,22 +19,40 @@
             
             <nav>
                 <ul>
-                    <li> <a href="../pages/home.html"> Home </a> </li>
-                    <li> <a href="../pages/aboutus.html"> About </a> </li>
-                    <li> <a href="../pages/projects/projects.html"> Projects </a> </li>
+                    <li class="lisfodas"> <a href="../pages/home.html"> Home </a> </li>
+                    <li class="lisfodas"> <a href="../pages/aboutus.html"> About Us </a> </li>
+                    <li class="lisfodas"> <a href="../pages/projects/projects.html"> Projects </a> </li>
                     <li> <a href="../pages/contact.html"> Contact </a> </li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <main>
+        <div class="tudomain">
+            <div class="banner-conteiner">
+                <picture>
+                    <source media="(max-width: 850px)" srcset="#">
+                    <source media="(max-width: 1250px)" srcset="#">
+                    <img  class="banner" src="../assets/images/banner.png">
+                </picture>
+            </div>
 
-
-    <footer class="footer-conteiner">
-        <div class="footer-content">
-            <p> Copyright © 2024 - Our website | All rights reserved | Developed by: <strong> Fernada Rodrigues </strong> & <strong> Luiz Otávio. </strong> </p>
+            <div class="inf">
+                <h1 class="titulo"> Welcome to Swing & Ink Productions! </h1>
+                <p class="texto"> We create vibrant worlds where art and gameplay come together in perfect harmony. </br>
+                    Our mission is to deliver unforgettable experiences inspired by classic animation and the </br>
+                    timeless spirit of gaming. </p>
+                <h3 class="subtitulo"> Explore, discover and enjoy. The magic starts here. </h3>
+            </div>
         </div>
-    </footer>
+    </main>
 
+<footer class="footer-conteiner">
+        <div class="footer-content">
+            <p> Copyright © 2024 - Swing & Ink Prod. | All rights reserved | Developed by: <strong> Fernada Rodrigues </strong> & <strong> Luiz Otávio. </strong> </p>
+        </div>
+    </footer> 
 </body>
+
 </html>

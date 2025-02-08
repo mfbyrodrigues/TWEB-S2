@@ -1,0 +1,42 @@
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.about-conteiner{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.textos {
+    margin-right: 30px;
+}
+
+img {
+    width: 600px;
+    border-radius: 30px 60px;
+    margin-top: 10px;
+}
+
+h1, h3 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.titulo-video {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+video {
+    width: 600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30% 0;
+    margin-bottom: 80px;
+    border-radius: 60px 30px;
+}
