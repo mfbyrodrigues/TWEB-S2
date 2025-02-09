@@ -7,14 +7,15 @@
     <title> Swing & Ink Productions </title>
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/components/mainhome.css">
-    <link rel="icon" href="../assets/images/Logo_S&I.png" type="image/x-icon">
+    <link rel="icon" href="../assets/images/header/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 
 <body>
     <header>
         <div class="header-conteiner">
             <div class="logo-container">
-                <img src="../assets/images/Logo_S&I.png" alt="Logo" class="logo">
+                <img src="../assets/images/header/logo.png" alt="Logo" class="logo">
             </div>
             
             <nav>
@@ -32,14 +33,14 @@
         <div class="tudomain">
             <div class="banner-conteiner">
                 <picture>
-                    <source media="(max-width: 850px)" srcset="#">
-                    <source media="(max-width: 1250px)" srcset="#">
-                    <img  class="banner" src="../assets/images/banner.png">
+                    <source media="(max-width: 480px)" srcset="../assets/images/home/banner_mobile.png">
+                    <source media="(max-width: 768px)" srcset="../assets/images/home/banner_tablet.png">
+                    <img  class="banner" src="../assets/images/home/banner.png" alt="Banner CupHead">
                 </picture>
             </div>
 
             <div class="inf">
-                <h1 class="titulo"> Welcome to Swing & Ink Productions! </h1>
+                <h1 class="titulo"> <strong class="mf">Welcome to Swing</strong> & <strong class="lo"> Ink Productions!</strong> </h1>
                 <p class="texto"> We create vibrant worlds where art and gameplay come together in perfect harmony. </br>
                     Our mission is to deliver unforgettable experiences inspired by classic animation and the </br>
                     timeless spirit of gaming. </p>
@@ -48,9 +49,23 @@
         </div>
     </main>
 
-<footer class="footer-conteiner">
+    <a href="#" class="top">&#8593;</a>
+
+    <footer class="footer-conteiner">
         <div class="footer-content">
-            <p> Copyright © 2024 - Swing & Ink Prod. | All rights reserved | Developed by: <strong> Fernada Rodrigues </strong> & <strong> Luiz Otávio. </strong> </p>
+            <p> Copyright © 2025 - <strong>Swing & Ink Productions</strong> | All rights reserved | Developed by: <strong class="mf"> Fernada Rodrigues </strong> & <strong class="lo"> Luiz Otávio. </strong> </p>
+
+            <div class="icons-box">
+                <div class="sponsors">
+                    <h4> Follow us: </h4>
+                    <i class="fa-brands fa-github fa-lg"></i> <i class="fa-brands fa-instagram fa-lg"></i> <i class="fa-brands fa-linkedin fa-lg"></i>
+                </div>
+
+                <div class="sponsors">
+                    <h4> Partners: </h4>
+                    <i class="fa-brands fa-xbox fa-lg"></i> <i class="fa-brands fa-playstation fa-lg"></i> <i class="fa-brands fa-apple fa-lg"></i> <a href="https://open.spotify.com/playlist/3WLums6wynLQKcofSEW3AY?si=9b8b0f138f7b456f"><i class="fa-brands fa-spotify fa-lg"></i></a> <i class="fa-brands fa-pinterest fa-lg"></i> <i class="fa-brands fa-steam fa-lg"></i> <i class="fa-brands fa-amazon fa-lg"></i>
+                </div>
+            </div>
         </div>
     </footer> 
 </body>

@@ -20,6 +20,12 @@
 .banner {
     border-radius: 60px 30px;
     margin-bottom: 30px;
+    box-shadow: var(--box-shadow);
+    transition: all ease 0.5s;
+}
+
+.banner:hover {
+    transform: scale(1.03);
 }
 
 .titulo {
@@ -48,3 +54,4 @@
 
     
 }
+

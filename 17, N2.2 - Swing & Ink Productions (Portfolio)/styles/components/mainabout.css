@@ -14,10 +14,16 @@ p {
     margin-right: 30px;
 }
 
-img {
+main picture img {
     width: 600px;
     border-radius: 30px 60px;
     margin-top: 10px;
+    box-shadow: var(--box-shadow);
+    transition: all ease 0.5s;
+}
+
+main picture img:hover {
+    transform: scale(1.03);
 }
 
 h1, h3 {
@@ -39,4 +45,5 @@ video {
     margin: 0 30% 0;
     margin-bottom: 80px;
     border-radius: 60px 30px;
+    box-shadow: var(--box-shadow);
 }
