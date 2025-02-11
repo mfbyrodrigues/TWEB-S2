@@ -51,7 +51,41 @@
         visibility: visible;
         transform: translateX(0%);
     }
-
-    
 }
 
+/*
+Responsividade:
+*/
+
+@media (max-width: 768px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tudomain {
+        flex-direction: column;
+    }
+
+    .banner-conteiner {
+        width: 600px;
+        height: 200px;
+        padding-left: 30px;
+    }
+
+    .banner {
+        border-radius: 30px;
+    } 
+
+    div div img {
+        width: 500px;
+        height: 250px;
+    }
+
+    .inf {
+        margin: 0;
+        text-align: center;
+    }
+
+}

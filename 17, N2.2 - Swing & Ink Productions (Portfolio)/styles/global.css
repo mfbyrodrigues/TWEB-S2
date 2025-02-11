@@ -19,7 +19,7 @@ html, body {
     bottom: 20px;      
     margin-left:10px; 
     place-self: end;
-    margin-top: calc(100vh + var(--offset));
+    margin-top: calc(25vh + var(--offset));
     border: none;
     outline: none;
     background-color: gray;
@@ -34,6 +34,7 @@ html, body {
 .top:hover {
     background-color: rgb(184, 10, 10);
 }
+
 /*
 Paleta de cores:
 */
@@ -90,8 +91,7 @@ nav a, a i {
 }
 
 nav ul li a, nav ul li{
-    transition: all ease 0.3s;
-    
+    transition: all ease 0.3s;   
 }
 
 nav ul li a:hover {
@@ -99,7 +99,7 @@ nav ul li a:hover {
   color: var(--cor-prim);
 }
 
-.lisfodas:hover {
+.lista-header:hover {
     transform: rotate(-10deg);
 }
 
@@ -159,6 +159,13 @@ i {
 Responsividade:
 */
 
+@media (max-width: 480px) {
+
+    .header-conteiner {
+        max-width: 480px;
+    }
+}
+
 @media (max-width: 768px) {
 
     .header-conteiner {
@@ -170,6 +177,7 @@ Responsividade:
     
     .logo-conteiner {
         margin: 0;
+        margin-right: 1rem;
     }
 
     header div div img {
@@ -178,7 +186,8 @@ Responsividade:
     }
 
     nav {
-        margin-left: 15px;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
     }
 
     nav ul {
@@ -204,12 +213,5 @@ Responsividade:
 
     footer div p {
         text-align: center;
-    }
-}
-
-@media (max-width: 480px) {
-
-    .header-conteiner {
-        max-width: 480px;
     }
 }

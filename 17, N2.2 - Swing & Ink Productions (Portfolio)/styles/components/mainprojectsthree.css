@@ -21,7 +21,7 @@ p {
     margin-top: 2rem;
 }
 
-ul li {
+main ul li {
     margin-bottom: 15px;
     margin-left: 32px;
     list-style: none;
@@ -42,7 +42,7 @@ main div {
 }
 
 .music-image:hover {
-    transform: scale(1.03);
+    transform: scale(1.08);
 }
 
 .vinil-image {
@@ -81,4 +81,14 @@ button:hover {
     transform: scale(1.1);
     color: var(--white-color);
     font-size: large;
+}
+
+@media (max-width: 768px) {
+    .music-image {
+        transform: scale(0.75);
+    }
+
+    .music-image:hover {
+        transform: scale(0.86);
+    }
 }

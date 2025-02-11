@@ -18,7 +18,7 @@
     margin: 0 auto
 }
 
-.satanico {
+.demon-image {
     width: 400px;
     margin-top: 40px;
 }
@@ -46,7 +46,6 @@ input {
     padding: 10px;
     max-width: 500px;
 }
-
 
 input[type="checkbox"] {
     padding: 0;
