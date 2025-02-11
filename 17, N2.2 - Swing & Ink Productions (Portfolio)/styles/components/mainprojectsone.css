@@ -54,3 +54,22 @@ button:hover {
     color: var(--white-color);
     font-size: large;
 }
+
+/* Responsividade: */
+
+@media (max-width: 480px) {
+
+    /* Mobile: */
+
+    main h1 {
+        font-size: x-large;
+    }
+
+    video {
+        width: 420px;
+    }
+
+    .inf {
+        width: 400px;
+    }
+}

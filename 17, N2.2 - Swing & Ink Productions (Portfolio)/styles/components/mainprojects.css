@@ -34,7 +34,7 @@ main {
 }
 
 .img-p1 {
-    width: 350px;
+    width: 400px;
     border-radius: 30px 60px;
     margin-bottom: 30px; 
     margin-top: 15px;
@@ -48,7 +48,7 @@ main {
 }
 
 .img-p3 {
-    width: 350px;
+    width:375px;
     border-radius: 60px 30px;
     margin-bottom: 30px;
     margin-top: 15px; 
@@ -89,4 +89,37 @@ button {
 button:hover {
     background-color: var(--black-color);
     color: var(--white-color);
+}
+
+/* Responsividade: */
+
+@media (max-width: 768px) {
+
+    /* Tablet: */
+
+    .img-p1 {
+        width: 175px;
+        border-radius: 30px;
+        margin-bottom: 30px; 
+        margin-top: 15px;
+    }
+    
+    .img-p2 {
+        width: 200px;
+        border-radius: 30px;
+        margin-bottom: 30px;
+        margin-top: 15px; 
+    }
+    
+    .img-p3 {
+        width: 175px;
+        border-radius: 30px;
+        margin-bottom: 30px;
+        margin-top: 15px; 
+    }
+
+    main div p, h2 {
+        text-align: center;
+        font-size: medium;
+    }
 }

@@ -47,3 +47,57 @@ video {
     border-radius: 60px 30px;
     box-shadow: var(--box-shadow);
 }
+
+/* Responsividade: */
+
+@media (max-width:480px) {
+    
+    /* Mobile: */
+
+    main div img {
+        width: 400px;
+        margin: auto;
+    }
+
+    .img-empresa {
+        margin-right: 10px;
+    }
+
+    video {
+        width: 400px;
+        margin: auto;
+        border-radius: 30px;
+        margin-bottom: 3rem;
+    }
+
+    .about-conteiner{
+        margin-left: 11px;
+    }
+
+    h1 {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Tablet: */
+
+    body main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main picture img {
+        margin-left: 50px;
+    }
+
+    video {
+        margin-left: 85px;
+    }
+}

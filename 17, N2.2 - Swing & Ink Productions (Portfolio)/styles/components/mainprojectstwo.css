@@ -56,6 +56,17 @@ button:hover {
     font-size: large;
 }
 
-@media(max-width: 768px){
-    
+/* Responsividade: */
+
+@media (max-width: 768px) {
+
+    /* Tablet: */
+
+    main img {
+        width: 400px;
+    }
+
+    .inf {
+        width: 400px;
+    }
 }

@@ -83,7 +83,32 @@ button:hover {
     font-size: large;
 }
 
+/*
+Responsividade:
+*/
+
+@media (max-width: 480px) {
+
+    /*  Mobile: */
+
+    main h1 {
+        font-size: xx-large;
+    }
+
+    .inf {
+        width: 400px;
+        margin-right: 2rem;
+    }
+
+    .vinil-image {
+        width: 400px;
+    }
+}
+
 @media (max-width: 768px) {
+
+    /* Tablet: */
+
     .music-image {
         transform: scale(0.75);
     }
