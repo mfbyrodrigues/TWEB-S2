@@ -88,6 +88,19 @@ button:hover {
 Responsividade:
 */
 
+@media (max-width: 768px) {
+
+    /* Tablet: */
+
+    .music-image {
+        transform: scale(0.75);
+    }
+
+    .music-image:hover {
+        transform: scale(0.86);
+    }
+}
+
 @media (max-width: 480px) {
 
     /*  Mobile: */
@@ -105,17 +118,4 @@ Responsividade:
         width: 400px;
     }
 
-}
-
-@media (max-width: 768px) {
-
-    /* Tablet: */
-
-    .music-image {
-        transform: scale(0.75);
-    }
-
-    .music-image:hover {
-        transform: scale(0.86);
-    }
 }
