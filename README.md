@@ -59,8 +59,8 @@ Aqui adicionarei anotações e códigos feitos na disciplina.
 ## Referências
 
 - Documentação oficial do HTML e CSS;
-- Livros e materiais recomendados durante o curso;
-- Aulas práticas fornecidas pelo professor da disciplina.
+- Livros e materiais recomendados durante a disciplina;
+- Aulas práticas fornecidas pelo professor.
 
 ##
 
