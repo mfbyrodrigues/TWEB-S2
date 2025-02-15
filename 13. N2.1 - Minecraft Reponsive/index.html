@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Minecraft Responsive </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/images/icon.png">
+</head>
+
+<body>
+    <main>
+        <h1> IMAGENS </h1>
+
+        <ul>
+            <li class="card">
+                <p> Logo do Minecraft </p>
+                <img class="Logo" src="./images/minecraft_logo.png" alt="Minecraft"">
+            </li>
+
+            <li class="card">
+                <p> Doguinho, o Steve e a Alex </p>
+                <img class="gengar" src="/images/trio.png" alt="Gengar"">
+            </li>
+
+            <li class="card">
+                <p> Utilizando a tag picture </p>
+                
+                <picture class="picture">
+                    <source media="(max-width: 480px)" srcset="/images/mobile.png" alt="Baú">
+                    <source media="(max-width: 768px)" srcset="/images/tablet.png" alt="Fornalha">
+                    <img src="/images/desktop.png" alt="Crafttable">
+                </picture>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
