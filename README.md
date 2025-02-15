@@ -48,9 +48,10 @@ Os principais tópicos abordados incluem:
 ## Configuração do ambiente
 
 Para acompanhar as aulas e praticar, estou utilizando:
-- **Editor:** VS Code
-- **Navegador:** Google Chrome / Firefox
-- **Ferramentas Adicionais:** Live Server, DevTools do navegador
+
+- **Editor:** VS Code;
+- **Navegador:** Opera ou Google Chrome;
+- **Ferramentas Adicionais:** Live Server, DevTools do navegador.
 
 ## Minhas anotações
 
